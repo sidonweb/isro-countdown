@@ -3,7 +3,7 @@ import Card from './Card';
 
 const Countdown = () => {
     const calculateTimeLeft = () => {
-        const difference = +new Date('2024-04-18') - +new Date();
+        const difference = +new Date('2024-04-21') - +new Date();
         let timeLeft = {};
 
         if (difference > 0) {
